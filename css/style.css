@@ -525,7 +525,7 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #e54792;
+  background-color: #6287d4;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
@@ -679,11 +679,8 @@ a:hover, a:active {
 .mot > div {
   font-size: 9vw;
   text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
-}
-
-.mot:nth-child(1) > div {
-  -webkit-animation: animationLettre 1s both;
-          animation: animationLettre 1s both;
+  -webkit-animation: animationLettre .5s both;
+          animation: animationLettre .5s both;
 }
 
 @-webkit-keyframes animationLettre {
@@ -784,7 +781,7 @@ body {
 }
 
 .menu {
-  background-color: #8d4b4b;
+  background-color: #000000;
   text-align: center;
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
   width: 100vw;
@@ -905,7 +902,6 @@ body {
     /*Propriété comme item flex - ne peut s'étirer en hauteur*/
     width: 96vw;
     margin-bottom: 10px;
-    border-radius: 10px;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -929,6 +925,10 @@ body {
   .menu a:first-child {
     border-top: none;
   }
+  .menu :hover {
+    background-color: #c3e9eb;
+    color: red;
+  }
   .conteneur {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
@@ -939,7 +939,7 @@ body {
 }
 
 .box {
-  background-color: #444;
+  background-color: #295758;
   color: #fff;
   border-radius: 5px;
   padding: 10px;
@@ -948,11 +948,11 @@ body {
 
 .header,
 .footer {
-  background-color: #999;
+  background-color: #58b4b7;
 }
 
 .sidebar2 {
-  background-color: #ccc;
-  color: #444;
+  background-color: #295758;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

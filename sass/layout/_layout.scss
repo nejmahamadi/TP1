@@ -32,7 +32,7 @@ body {
 	}
 
 	.menu {
-		background-color : $color__menu-nav;
+		background-color : #000000;
 		text-align: center;
 		/*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
 		width: 100vw;
@@ -139,7 +139,6 @@ body {
 		/*Propriété comme item flex - ne peut s'étirer en hauteur*/
 		width: 96vw;
 		margin-bottom: 10px;
-		border-radius : 10px;
 		flex: 0 0 100%;
 
 		/*Affichage du menu en rangée*/
@@ -160,6 +159,11 @@ body {
 
 	}
 
+	.menu :hover{
+		background-color: rgb(195, 233, 235);
+		color: red;
+	}
+
 	.conteneur {
 		grid-gap: 20px;
 		grid-template-columns: 120px auto 120px;
@@ -172,7 +176,7 @@ body {
 }
 
 .box {
-	background-color: #444;
+	background-color: #295758;
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
@@ -185,6 +189,6 @@ body {
 }
 
 .sidebar2 {
-	background-color: #ccc;
-	color: #444;
+	background-color: #295758;
+	color: #fff;
 }
