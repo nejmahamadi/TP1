@@ -525,7 +525,7 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: red;
+  background-color: #6287d4;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
@@ -939,16 +939,20 @@ body {
 }
 
 .box {
-  background-color: red;
+  background-color: #295758;
   color: #fff;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
 }
 
-.header,
-.footer {
+.header {
   background-color: #58b4b7;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 8%;
 }
 
 .sidebar2 {
